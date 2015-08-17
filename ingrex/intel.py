@@ -92,7 +92,7 @@ class Intel(object):
         url = 'https://www.ingress.com/r/artifacts'
         payload = {}
         return self.fetch(url, payload)['artifacts']
-
+#some messy 'artifacts' entries on line 105, 113, 121.
     def send_msg(self, msg, tab='all'):
         "send a message to Ingress COMM"
         url = 'https://www.ingress.com/r/sendPlext'
